@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+.header_firstblock {
+    display: flex;
+    flex-direction: row;
+    color: #0088a2;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    margin: 3% 5%;
+}
+
+header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+}
+
+header img {
+    width: 100x;
+    height: 100px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.Nomain {
+    background-color: #808080;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+}
+
+.Nomain:hover {
+    background-color: #0088A2;
+}
+
+
+/* #Main{
+    background-color: #0088A2;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+} */
+
+#Guys {
+    margin-left: 120px;
+    width: 350px;
+    height: 250px;
+}
+
+#Guys1 {
+    position: absolute;
+    margin-left: 200px;
+    top: 65%;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#Yes {
+    margin-left: 120px;
+    width: 250px;
+    height: 250px;
+}
+
+#Yes1 {
+    position: absolute;
+    margin-left: 720px;
+    top: 47%;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#Cursor {
+    margin-left: -80px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+#No {
+    margin-left: 40px;
+    height: 250px;
+    width: 100px;
+}
+
+#No1 {
+    position: absolute;
+    margin-left: 880px;
+    top: 47%;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#Guys2 {
+    position: absolute;
+    margin-left: 1140px;
+    top: 54%;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#Section2 {
+    text-align: center;
+    color: #0088A2;
+    font-size: 55px;
+    margin-top: 80px;
+}
+
+#Stol {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+#Button {
+    top: 1020px;
+    left: 720px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+#Project {
+    text-align: center;
+    color: #0088A2;
+    font-size: 55px;
+    margin-top: 170px;
+}
+
+#Kyrs {
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 35px;
+    color: #707070;
+}
+
+#Download {
+    text-align: center;
+    font-size: 55px;
+    color: #0088A2;
+    margin-top: 100px;
+}
+
+#Android {
+    height: 250px;
+    margin-top: 90px;
+}
+
+#Icon {
+    height: 250px;
+    margin-top: 90px;
+}
+
+#Download2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Download1 {
+    font-size: 25px;
+    text-align: center;
+    color: #707070;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #0088A2;
+    margin-top: 50px;
+}
+
+#set1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.set {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#vk {
+    margin-right: 5%;
+}
+
+#inst {
+    margin-right: 5%;
+}
+
+#Some1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 75px;
+    color: #FFFFFF;
+}
+
+.list {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    width: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#text123 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 5%;
+    list-style: none;
+}
+
+#text12 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: -5%;
+    margin-left: 45%;
+    list-style: none;
+}
+
+#text1234 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: -4.5%;
+    margin-left: 80%;
+    list-style: none;
+}
+
+#img1 {
+    width: 250px;
+    height: 450px;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+.forrq {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+#img2 {
+    width: 250px;
+    height: 450px;
+    margin-left: -3.5%;
+    position: absolute;
+    top: 20%;
+}
+
+#img3 {
+    width: 250px;
+    height: 450px;
+    margin-left: 9.3%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+#img4 {
+    width: 250px;
+    height: 450px;
+    margin-left: 22%;
+    margin-top: 7%;
+    position: absolute;
+    z-index: 1;
+}
+
+#img5 {
+    width: 250px;
+    height: 450px;
+    margin-left: 34.8%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.WTF {
+    margin-top: 75px;
+}
